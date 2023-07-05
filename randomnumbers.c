@@ -4,7 +4,7 @@
 
 /*#include<stdio.h>
 #include<stdlib.h>
-int main() {   //hep aynı sayıları veriyor
+int main() {   //hep aynÄ± sayÄ±larÄ± veriyor
 	int i;
 	for (i = 1;i <= 20;i++) {
 
@@ -19,7 +19,7 @@ int main() {   //hep aynı sayıları veriyor
 }*/
 
 /*int main() {
-	int i; //farklı sayıları veriyor
+	int i; //farklÄ± sayÄ±larÄ± veriyor
 
 	srand(time(NULL));
 	for (i = 1;i <= 50;i++) {
@@ -49,4 +49,3 @@ int main() {
 	sayisal_loto();
 	return 0;
 }
-
