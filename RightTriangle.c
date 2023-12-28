@@ -13,6 +13,5 @@ int i,j;
         printf("\n");
     }
    
-
     return 0;
 }
