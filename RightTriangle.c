@@ -1,22 +1,28 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(){
 
-int i,j;
+int i,j,n;
 
-    for(i=1;i<=5;i++){
+    printf("enter a lenght: ");
+    scanf("%d", &n);
 
-        for(j>=5;j>=i;j--){
-            printf("*");
-        }
+    for(i=0;i<=n;i++){
+
+    for(j=0;j<=i;j++){
+        printf("*");
+    }
+
         printf("\n");
     }
-   
+
     return 0;
 }
-  //ters dik üçgen 
 
+
+//ters dik üçgen
+
+/*
 int main() {
 	int i,j,n;
 
@@ -33,5 +39,4 @@ int main() {
 	}
 	
 	
-	return 0;
-}
+	return 0;  }   */
