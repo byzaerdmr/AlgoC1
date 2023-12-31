@@ -2,7 +2,7 @@
 #include<stdlib.h>
 int main(){
 	int i,j,k,l;
-	printf("kenar uzunluklarını giriniz: ");
+	printf("kenar uzunluklarÃ½nÃ½ giriniz: ");
 	scanf("%d  %d", &j, &k);
 	for(i=1;i<=j;i++){
 		
