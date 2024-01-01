@@ -2,7 +2,7 @@
 #include<stdlib.h>
 int main(){
 	int i,j,k,l;
-	printf("kenar uzunluklarýný giriniz: ");
+	printf("enter two lenghts for rectangle: ");
 	scanf("%d  %d", &j, &k);
 	for(i=1;i<=j;i++){
 		
