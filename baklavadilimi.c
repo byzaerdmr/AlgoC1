@@ -7,7 +7,7 @@ int main(){
 	
 	for (i=1;i<=first;i++)
 	{	
-		for (j=1;j<=first-i;j++){
+		for (j=1;j<=first-i;j++){  //baştaki boşluğu oluşturmak için 
 			printf(" ");
 		
 		}
