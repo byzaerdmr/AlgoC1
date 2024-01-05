@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
 	
-	int i,j,first;
+	int i,j,first;  // i ayna kısmına kadar olan satır;; j satırdaki boşluk ve yıldız sayılarını kontrol ediyor
 	printf("Please enter a number:\n ");
 	scanf("%d",&first);
 	
