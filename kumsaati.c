@@ -12,7 +12,7 @@ for(i=1;i<=h;i++){
      for(j=1;j<=i-1;j++){
      	printf(" ");
         }
-     for(j=0;j<=2*h-2*i;j++){
+     for(j=0;j<=2*h-2*i;j++){ // 0dan başladığı için yıldız sayısı 0 dahil olacak şekilde olur
      	printf("*");
         }
         printf("\n");
