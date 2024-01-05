@@ -20,7 +20,7 @@ int main(){
 	
 	for (i=1;i<=first;i++){
 		
-		for (j=1;j<=i;j++){
+		for (j=1;j<=i;j++){ // alltaki üçgenin sağındaki boşluğu oluşturmak için
 			
 			printf(" ");
 			
