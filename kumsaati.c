@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+
+int h,i,j;
+printf("Please enter a number:\n ");
+scanf("%d",&h);
+
+for(i=1;i<=h;i++){
+        
+     for(j=1;j<=i-1;j++){
+     	printf(" ");
+        }
+     for(j=0;j<=2*h-2*i;j++){
+     	printf("*");
+        }
+        printf("\n");
+}
