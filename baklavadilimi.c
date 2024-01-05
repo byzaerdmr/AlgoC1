@@ -9,12 +9,12 @@ int main(){
 	{	
 		for (j=1;j<=first-i;j++){  //baştaki boşluğu oluşturmak için 
 			printf(" ");
-		
 		}
 		
 		for (j=1;j<=2*i-1;j++){
 			printf("*");
 		}
+		
 		printf("\n");
 	}
 	
@@ -23,8 +23,8 @@ int main(){
 		for (j=1;j<=i;j++){ // alltaki üçgenin sağındaki boşluğu oluşturmak için
 			
 			printf(" ");
-			
 		}
+		
 		for (j=1;j<=(2*first-2*i-1);j++){
 			
 			printf("*");
