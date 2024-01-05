@@ -25,7 +25,7 @@ int main(){
 			printf(" ");
 		}
 		
-		for (j=1;j<=(2*first-2*i-1);j++){
+		for (j=1;j<=(2*first-2*i-1);j++){  // 2x(satır sayısı)-1 genel terimi oluyor
 			
 			printf("*");
 		}
