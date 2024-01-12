@@ -15,19 +15,19 @@ int prime_number(int number){
 int main(){
 	
 	int number;
-	printf("please enter a number: ");
+	printf("Please enter a number: ");
 	scanf("%d", &number);
 	if(number<2) {
-		printf("invalid value!");
+		printf("Invalid value!");
 		
 	}
 	else if(prime_number(number)==0){
 	
-	printf("this number is not prime");   }
+	printf("This number is not prime");   }
     
 	else{
 
-	printf("this number prime number");  }
+	printf("This number a prime number");  }
 	
 	
 		return 0;
