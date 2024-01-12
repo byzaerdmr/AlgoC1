@@ -2,8 +2,7 @@
 #include<stdlib.h>
 #include<time.h>
 
-/*#include<stdio.h>
-#include<stdlib.h>
+/* 
 int main() {   //hep aynı sayıları veriyor
 	int i;
 	for (i = 1;i <= 20;i++) {
@@ -16,13 +15,14 @@ int main() {   //hep aynı sayıları veriyor
 		}
 	}
 	return 0;
-}*/
+}  */
 
-/*int main() {
+/* 
+int main() {
 	int i; //farklı sayıları veriyor
 
 	srand(time(NULL));
-	for (i = 1;i <= 50;i++) {
+	for (i = 1;i <= 20;i++) {
 
 		printf("%10d ", 1 + (rand() % 6));
 		if (i % 5 == 0) {
@@ -30,13 +30,14 @@ int main() {   //hep aynı sayıları veriyor
 		}
 	}
 
-	return 0;
-}*/
-void sayisal_loto() {
+	return 0;  }  */
+
+
+    void sayisal_loto() {
 	int i;
 	srand(time(NULL));
 	
-	for (i =1;i <= 50;i++) {
+	for (i =1;i <= 100;i++) {
 		
 			printf("%10d", 1 + (rand() % 50));
 			if (i % 5 == 0) {
