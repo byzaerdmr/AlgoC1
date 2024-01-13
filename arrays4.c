@@ -11,7 +11,7 @@ void automaticArrayInit(void);
     staticArrayInit(); 
     automaticArrayInit();
 
-    puts("\n\nSecond call to each function:");
+    puts("\n\nSecond call to each function:");  //static array değişen değerleri tutmaya devam ediyor.
     staticArrayInit(); 
     automaticArrayInit();
     puts("");
@@ -21,7 +21,7 @@ void automaticArrayInit(void);
 
     
     void staticArrayInit(void) {
-    // initializes elements to 0 before the function is called
+ 
     static int array1[3];
     puts("\nValues on entering staticArrayInit:");
 
@@ -29,16 +29,16 @@ void automaticArrayInit(void);
      for (int i = 0; i <= 2; ++i) {
     printf("array1[%d] = %d ", i, array1[i]);
  } 
+     
     puts("\nValues on exiting staticArrayInit:");
     for (int i = 0; i <= 2; ++i) {
     printf("array1[%d] = %d ", i, array1[i] += 5);
- } 
+   } 
 }
     
     void automaticArrayInit(void) {
-     // initializes elements each time function is called
+ 
     int array2[3] = {1, 2, 3};
-
     puts("\n\nValues on entering automaticArrayInit:");
 
     
@@ -47,9 +47,10 @@ void automaticArrayInit(void);
      } 
 
     puts("\nValues on exiting automaticArrayInit:");
-    // modify and output contents of array2
+    
     for (int i = 0; i <= 2; ++i) {
      printf("array2[%d] = %d ", i, array2[i] += 5);
+     
      } 
-     }
+  }
  
