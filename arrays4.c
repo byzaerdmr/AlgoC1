@@ -1,4 +1,4 @@
-// Static arrays are initialized to zero if not explicitly initialized. 
+// Static arrays are initialized to zero if not explicitly initialized. normal dizi için geçerli değil
 #include <stdio.h>
 
 void staticArrayInit(void); 
