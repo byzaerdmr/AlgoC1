@@ -18,6 +18,7 @@ int n[5]; // n is an array of five integers
 return 0; 
  }
 
+/*
 #include <stdio.h>
 #define SIZE 5 // maximum size of array
 
@@ -31,3 +32,4 @@ s[j] = 2 + 2 * j; }
  printf("%7d%8d\n", j, s[j]);
  } 
 return 0; } 
+*/
