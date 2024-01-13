@@ -17,3 +17,17 @@ int n[5]; // n is an array of five integers
  } 
 return 0; 
  }
+
+#include <stdio.h>
+#define SIZE 5 // maximum size of array
+
+int main(void) {
+ int s[SIZE] = {0}; // array s has SIZE elements
+ for (int j = 0; j < SIZE; ++j) { // set the values
+s[j] = 2 + 2 * j; } 
+ printf("%s%8s\n", "Element", "Value");
+// output contents of array s in tabular format
+ for (int j = 0; j < SIZE; ++j) { 
+ printf("%7d%8d\n", j, s[j]);
+ } 
+return 0; } 
